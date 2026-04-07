@@ -2,13 +2,13 @@ import os
 import sys
 
 try:
-    import Rady_pojet
+    import com_XD
 except ImportError:
     print("Module not found!")
 
 def main():
     try:
-        Rady_pojet.main()
+        com_XD.main()
     except AttributeError:
         print("Function main() not found in .so file!")
 
